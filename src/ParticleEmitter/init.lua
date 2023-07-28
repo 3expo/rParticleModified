@@ -1,4 +1,4 @@
-local Particle = require(script.Particle);
+local Particle = loadstring(game:HttpGet("https://github.com/3expo/rParticleModified/blob/master/src/ParticleEmitter/Particle.lua"))()
 local ParticleEmitter = {};
 ParticleEmitter.__index = ParticleEmitter
 
